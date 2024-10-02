@@ -24,7 +24,17 @@
    docker-compose up -d
    ```
 
-5. Reconstuir la DB con Seed
+5. Clonar el archivo `.env.template` y renombrar la copia `.env`
+
+6. Llenar las variables de entorno definidas en el `.env`
+
+7. Ejecutar la aplicacion en dev:
+
+   ```
+   yarn start:dev
+   ```
+
+8. Reconstuir la DB con Seed
 
    ```
    http://localhost:300/api/v2/seed
