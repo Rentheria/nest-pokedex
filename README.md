@@ -8,24 +8,29 @@
 
 2. Ejecutar
 
-    ```
-    yarn install
-    ```
+   ```
+   yarn install
+   ```
 
 3. Tener Nest CLI
 
-    ```
-    npm i -g @nestjs/cli
-    ```
+   ```
+   npm i -g @nestjs/cli
+   ```
 
 4. Levantar la base de datos
 
-    ```
-    docker-compose up -d
-    ```
+   ```
+   docker-compose up -d
+   ```
 
+5. Reconstuir la DB con Seed
+
+   ```
+   http://localhost:300/api/v2/seed
+   ```
 
 # Stack usado
 
-* MongoDb
-* Nest
+- MongoDb
+- Nest
